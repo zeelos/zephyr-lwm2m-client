@@ -1,0 +1,26 @@
+# Binary files #
+*.class
+
+# Maven build files #
+target
+
+# Zephyr build files
+build
+
+# Eclipse files #
+bin/
+.classpath
+.project
+.settings
+
+# IntelliJ Config Files #
+.idea/
+*.iml
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# Various OS dependant artifcats
+.DS_Store
