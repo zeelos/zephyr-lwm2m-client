@@ -1,4 +1,10 @@
-.. _lwm2m-client-sample:
+Note
+====
+
+This example is based on the `LWM2M sample <https://github.com/zephyrproject-rtos/zephyr/tree/master/samples/net/lwm2m_client>`_ that comes with the Zephyr distribution, modified to include a `random temperature generation <https://github.com/zeelos/zephyr-lwm2m-client/blob/master/src/lwm2m-client.c#L240-L263>`_ for testing purposes. Further, it's mainly tested on a `BLE Nano 2 Kit <https://redbear.cc/product/ble-nano-kit-2.html>`_ together with DTLS and IPv6 using the included `'prj_dtls.conf' <https://github.com/zeelos/zephyr-lwm2m-client/blob/master/prj_dtls.conf>`_ file. For more information (including setup), please visit the official `LWM2M documentation page <http://docs.zephyrproject.org/samples/net/lwm2m_client/README.html>`_ on the `Zephyr project. <https://www.zephyrproject.org>`_
+
+.. image:: https://image.ibb.co/h6FHeH/Screen_Shot_2018_04_25_at_09_57_09.png
+
 
 LwM2M client
 ############
